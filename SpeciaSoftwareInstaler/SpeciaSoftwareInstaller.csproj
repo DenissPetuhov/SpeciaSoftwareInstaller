@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataBaseSQLInstaler\DataBaseSQLInstaller.csproj" />
+    <ProjectReference Include="..\LowPrinterInstller\LowPrinterInstller.csproj" />
+    <ProjectReference Include="..\OtherSoftwareInstaler\OtherSoftwareInstaller.csproj" />
+    <ProjectReference Include="..\SpecialComponentInstaler\SpecialComponentInstaller.csproj" />
+    <ProjectReference Include="..\СommonService\СommonService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+
+</Project>

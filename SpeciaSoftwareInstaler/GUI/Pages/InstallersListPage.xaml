@@ -1,0 +1,33 @@
+﻿<Page x:Class="SpeciaSoftwareInstaler.GUI.Pages.InstallersListPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SpeciaSoftwareInstaler.GUI.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="550"
+      Title="InstallersListPage">
+
+    <Grid>
+        <ListView Grid.Row="1" Margin="15" Visibility="Collapsed">
+            <ListView.Template>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text=""/>
+
+
+                    </Grid>
+                </ControlTemplate>
+            </ListView.Template>
+        </ListView>
+    </Grid>
+</Page>
